@@ -1,38 +1,123 @@
-.App {
-  text-align: center;
+
+
+body, h2, p{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: hsl(257, 40%, 47%);
+  padding: 3em;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family:"Open sans";
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header img{
+  width: 10%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+main{
+  margin-top: 30px;
+  justify-content: space-between;
+  display:flex;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+main img{
+width: 40%;
+}
+.content{
+ width: 35%;
+ margin: 3em auto;
+}  
+.content h2 {
+  color:white;
+  font-size: 35px;
+}
+.content p{
+  margin: 2em auto;  
+  line-height: 25px;
+  font-size: 14px;
+  color:white;
+}
+.content button{
+  padding: 1em ;
+  border-radius: 30px;
+  border: none;
+  width: 40%;
+  color: purple;
+}
+.content button:hover{
+  color: rgb(248, 242, 242);
+  background: rgb(221, 104, 221);
+}
+footer{
+  float: right;
+}
+footer .fa{
   color: white;
+  margin-right: 5px;
+  padding: .5em;
+  border:1px solid white;
+  border-radius: 50%;
+  font-size: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+footer .fa:hover{
+   color:rgb(221, 104, 221);
+   border-color: rgb(221, 104, 221);
 }
+@media screen and (max-width:600px){
+  header img{
+      width: 50%;
+  }
+  main{
+      display: block;
+  }
+  main img{
+      width: 100%;
+  }
+  .content{
+      width: 100%;
+      text-align: center;
+      margin: 2em auto;
+  }
+  .content h2{
+      font-size: 27px;
+  }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .content button{
+      width: 80%;
   }
-  to {
-    transform: rotate(360deg);
+  footer{
+      float: none;
+      text-align: center;
   }
+
+}
+@media screen and (max-width:992px){
+  header img{
+      width: 30%;
+  }
+  main{
+      display: block;
+  }
+  main img{
+      width: 100%;
+  }
+  .content{
+      width: 100%;
+      text-align: center;
+      margin: 2em auto;
+  }
+  .content h2{
+      font-size: 47px;
+  }
+   .content p{
+       font-size: 13px;
+   }
+  .content button{
+      width: 80%;
+  }
+  footer{
+      float: none;
+      text-align: center;
+  } 
 }
