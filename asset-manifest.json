@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/helloworld/static/css/main.5d5f4481.chunk.css",
+    "main.js": "/helloworld/static/js/main.a0fe850d.chunk.js",
+    "main.js.map": "/helloworld/static/js/main.a0fe850d.chunk.js.map",
+    "runtime-main.js": "/helloworld/static/js/runtime-main.1b49cbbb.js",
+    "runtime-main.js.map": "/helloworld/static/js/runtime-main.1b49cbbb.js.map",
+    "static/js/2.13bf11bb.chunk.js": "/helloworld/static/js/2.13bf11bb.chunk.js",
+    "static/js/2.13bf11bb.chunk.js.map": "/helloworld/static/js/2.13bf11bb.chunk.js.map",
+    "static/js/3.bc023ed4.chunk.js": "/helloworld/static/js/3.bc023ed4.chunk.js",
+    "static/js/3.bc023ed4.chunk.js.map": "/helloworld/static/js/3.bc023ed4.chunk.js.map",
+    "index.html": "/helloworld/index.html",
+    "static/css/main.5d5f4481.chunk.css.map": "/helloworld/static/css/main.5d5f4481.chunk.css.map",
+    "static/js/2.13bf11bb.chunk.js.LICENSE.txt": "/helloworld/static/js/2.13bf11bb.chunk.js.LICENSE.txt",
+    "static/media/illustration-mockups.264994a5.svg": "/helloworld/static/media/illustration-mockups.264994a5.svg",
+    "static/media/logo.2b3c07e4.svg": "/helloworld/static/media/logo.2b3c07e4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b49cbbb.js",
+    "static/js/2.13bf11bb.chunk.js",
+    "static/css/main.5d5f4481.chunk.css",
+    "static/js/main.a0fe850d.chunk.js"
+  ]
+}
